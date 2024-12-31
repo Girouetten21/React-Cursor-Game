@@ -1,0 +1,54 @@
+body {
+  overflow: hidden;
+  margin: 0;
+  height: 100vh;
+  background: rgb(21,216,255);
+  background: linear-gradient(180deg, rgba(21,216,255,1) 0%, rgba(6,109,165,1) 51%, rgba(0,16,255,1) 100%); /* Degradado de tres colores */
+  display: flex;
+  justify-content: center; 
+  align-items: center; 
+}
+
+#root {
+  text-align: center;
+  width: 100%;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.menu-container {
+  max-width: 888px; /* Ancho máximo del contenedor */
+  width: 90%; /* El contenedor ocupe el 90% del ancho disponible */
+  padding: 2rem;
+  z-index: 50; /* El div esté por encima */
+  border-radius: 10px;
+  background: rgba(255, 255, 255, 0.8); /* Fondo blanco semitransparente para el contenido */
+  box-shadow: 0 4px 20px rgba(0, 0, 0, 0.2);
+}
+
+.generate-circles {
+  position: fixed; /* Fijo para cubrir toda la pantalla */
+  top: 0; /* Sin margen desde la parte superior */
+  left: 0; /* Sin margen desde la izquierda */
+  width: 100%; /* Ocupa el 100% del ancho total */
+  height: 100%; /* Ocupa el 100% de la altura total */
+  pointer-events: none; /* Permite que los eventos pasen a los elementos debajo */
+  z-index: 10; /* Por encima de otros elementos */
+}
+
+@keyframes logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  a:nth-of-type(2) .logo {
+    animation: logo-spin infinite 20s linear;
+  }
+}

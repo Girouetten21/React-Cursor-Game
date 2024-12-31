@@ -1,0 +1,8 @@
+.mouse-follower {
+    width: 40px; /* Ajusta el tamaño del círculo */
+    height: 40px; /* Ajusta el tamaño del círculo */
+    background-color: rgba(0, 255, 200, 0.5); /* Color del círculo */
+    border-radius: 50%; /* Hace que el div sea un círculo */
+    pointer-events: none; /* Evita que el círculo interfiera con otros eventos del mouse */
+    z-index: 100; /* Por encima de otros elementos */
+  }
