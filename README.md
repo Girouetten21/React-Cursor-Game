@@ -1,5 +1,7 @@
 # Cursor Game - React - JavaScript
 
+https://react-cursor-game.vercel.app
+
 ## Introduction ✨
 
 Welcome to Cursor vs Circles! This project is designed as a fun and interactive way to practice and utilize React Hooks, specifically `useEffect`, `useState`, and `useRef`. The game challenges players to use the mouse cursor to destroy randomly generated circles within a designated area. As you play, you'll not only improve your React skills but also enjoy a simple yet engaging gameplay experience.
